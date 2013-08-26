@@ -7,7 +7,7 @@
 //
 
 #import "SCTableViewCell.h"
-
+#import "UIColor+Soundcloud.h"
 
 @implementation SCTableViewCell
 {
@@ -49,11 +49,11 @@
         _waveformImageView.image = waveformImage;
         if (waveformImage)
         {
-            self.backgroundColor = [UIColor colorWithRed:1.0 green:88.0/255.0 blue:0.0 alpha:1.0];
+            self.backgroundColor = [UIColor soundcloudOrange];
         }
         else
         {
-            self.backgroundColor = [UIColor colorWithRed:239.0/255.0 green:239.0/255.0 blue:239.0/255.0 alpha:1.0];
+            self.backgroundColor = [UIColor soundcloudGray];
         }
         
         [self setNeedsLayout];

@@ -30,6 +30,7 @@
 		DA6EBFF817CB86A400A34821 /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = DA6EBFF717CB86A400A34821 /* track.json */; };
 		DA6EBFFA17CB87DA00A34821 /* SCTestApiMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6EBFF917CB87DA00A34821 /* SCTestApiMethod.m */; };
 		DACE781B17CA6ADF00104DCB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACE781A17CA6ADF00104DCB /* MainWindow.xib */; };
+		DADEA78F17CBA31100E94951 /* UIColor+Soundcloud.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEA78E17CBA31100E94951 /* UIColor+Soundcloud.m */; };
 		DAE68CEA17C8AE8E00EEC10E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE68CE917C8AE8E00EEC10E /* Foundation.framework */; };
 		DAE68CEC17C8AE8E00EEC10E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE68CEB17C8AE8E00EEC10E /* CoreGraphics.framework */; };
 		DAE68CEE17C8AE8E00EEC10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE68CED17C8AE8E00EEC10E /* UIKit.framework */; };
@@ -76,7 +77,9 @@
 		DA6EBFF717CB86A400A34821 /* track.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
 		DA6EBFF917CB87DA00A34821 /* SCTestApiMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTestApiMethod.m; sourceTree = "<group>"; };
 		DACE781A17CA6ADF00104DCB /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		DAE68CE617C8AE8E00EEC10E /* SoundcloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEA78D17CBA31100E94951 /* UIColor+Soundcloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Soundcloud.h"; sourceTree = "<group>"; };
+		DADEA78E17CBA31100E94951 /* UIColor+Soundcloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Soundcloud.m"; sourceTree = "<group>"; };
+		DAE68CE617C8AE8E00EEC10E /* Soundcloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundcloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE68CE917C8AE8E00EEC10E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DAE68CEB17C8AE8E00EEC10E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DAE68CED17C8AE8E00EEC10E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,8 @@
 				DA49520D17CB3D3E0065E7BA /* NSDictionary+JSON_NO_NSNULL.m */,
 				DA6EBFED17CB5F5300A34821 /* UIImage+Size.h */,
 				DA6EBFEE17CB5F5300A34821 /* UIImage+Size.m */,
+				DADEA78D17CBA31100E94951 /* UIColor+Soundcloud.h */,
+				DADEA78E17CBA31100E94951 /* UIColor+Soundcloud.m */,
 			);
 			name = Categories;
 			path = source/Categories;
@@ -199,7 +204,7 @@
 		DAE68CE717C8AE8E00EEC10E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE68CE617C8AE8E00EEC10E /* SoundcloudTest.app */,
+				DAE68CE617C8AE8E00EEC10E /* Soundcloud.app */,
 				DAE68D0A17C8AE8E00EEC10E /* SoundcloudTestTests.xctest */,
 			);
 			name = Products;
@@ -283,7 +288,7 @@
 			);
 			name = Soundcloud;
 			productName = SoundcloudTest;
-			productReference = DAE68CE617C8AE8E00EEC10E /* SoundcloudTest.app */;
+			productReference = DAE68CE617C8AE8E00EEC10E /* Soundcloud.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DAE68D0917C8AE8E00EEC10E /* SoundcloudTestTests */ = {
@@ -379,6 +384,7 @@
 				DA49520917CB3D2B0065E7BA /* SCTrack.m in Sources */,
 				DA49521B17CB3D3E0065E7BA /* SCLoginViewController.m in Sources */,
 				DA49522117CB3D3E0065E7BA /* SCTableViewCell.m in Sources */,
+				DADEA78F17CBA31100E94951 /* UIColor+Soundcloud.m in Sources */,
 				DA49521917CB3D3E0065E7BA /* NSDictionary+JSON_NO_NSNULL.m in Sources */,
 				DA49521F17CB3D3E0065E7BA /* SCApiManager.m in Sources */,
 				DA49522817CB3E2D0065E7BA /* KeychainItemWrapper.m in Sources */,
